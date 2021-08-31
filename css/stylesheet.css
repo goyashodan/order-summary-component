@@ -18,7 +18,15 @@
 
 body {
     background-image: url("../images/pattern-background-desktop.svg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-color: var(--pale-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#order-container {
+    background-color: yellowgreen;
 }
