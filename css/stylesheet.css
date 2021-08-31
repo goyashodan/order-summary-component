@@ -26,7 +26,7 @@ body {
     background-image: url("../images/pattern-background-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: var(--pale-blue);
 
     /* Align Content Center */
     display: flex;
