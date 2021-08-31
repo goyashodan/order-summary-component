@@ -22,7 +22,7 @@
 body {
     margin: 0;
 
-    /* Background Image */
+    /* Background */
     background-image: url("../images/pattern-background-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -36,13 +36,19 @@ body {
 }
 
 #order-container {
-    /* Size, Space & Shape*/
+    /* Size, Space & Shape */
     width: 450px;
     border-radius: 0 0 20px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 
     /* Background */
     background-color: white;
+}
+
+#inner-order-container {
+    /* Size, Space & Shape */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
