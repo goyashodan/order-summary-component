@@ -80,6 +80,7 @@ body {
     /* Background */
     background-color: var(--very-pale-blue);
     border-radius: 10px;
+    margin-top: 6px;
     margin-bottom: 32px;
 }
 
@@ -116,4 +117,13 @@ body {
     font-weight: bold;
     color: white;
     border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+#order-cancel {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: var(--desaturated-blue);
+    text-decoration: none;
 }
