@@ -38,7 +38,7 @@ body {
 
 #order-container {
     /* Size, Space & Shape */
-    width: 450px;
+    max-width: 450px;
     border-radius: 20px;
     
 
@@ -58,6 +58,7 @@ body {
 
 #order-hero {
     border-radius: 20px 20px 0 0;
+    max-width: 100%;
 }
 
 #order-title {
@@ -133,3 +134,34 @@ body {
     text-decoration: none;
 }
 
+@media screen and (max-width: 365px) {
+    body {
+        background-image: url("../images/pattern-background-mobile.svg");
+    }
+
+    #order-container {
+        max-width: 320px;
+    }
+
+    #inner-order-container {
+        padding: 25px;
+        padding-bottom: 30px;
+    }
+
+    #order-plan {
+        padding: 12px;
+        margin-bottom: 24px;
+    }
+
+    #order-payment {
+        margin-bottom: 24px;
+    }
+
+    #change, #plan-heading, #plan-subheading {
+        font-size: 0.8rem;
+    }
+    
+    #plan-heading, #plan-subheading {
+        font-size: 0.9rem;
+    }
+}
