@@ -15,6 +15,7 @@
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
+    --active-bright-blue: hsl(245, 55%, 68%);
 }
 
 /* || Properties || */
@@ -134,6 +135,20 @@ body {
     font-weight: 900;
     color: var(--desaturated-blue);
     text-decoration: none;
+}
+
+/* || Hover States || */
+
+#change:hover {
+    color: var(--active-bright-blue);
+}
+
+#order-payment:hover {
+    background-color: var(--active-bright-blue);
+}
+
+#order-cancel:hover {
+    color: var(--dark-blue);
 }
 
 @media screen and (max-width: 365px) {
