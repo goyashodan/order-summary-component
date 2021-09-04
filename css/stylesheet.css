@@ -124,6 +124,8 @@ body {
     border-radius: 10px;
     margin-bottom: 32px;
     box-shadow: 0px 20px 15px hsl(245, 75%, 52%, 0.2);
+    text-align: center;
+    text-decoration: none;
 }
 
 #order-cancel {
