@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop_screenshot.jpg)
-
 Desktop screenshot
 
 ![](./screenshots/desktop_screenshot.jpg)
 
 Mobile screenshot
+
+![](./screenshots/mobile_screenshot.jpg)
 
 ### Links
 
